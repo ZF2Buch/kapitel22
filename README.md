@@ -84,11 +84,15 @@ Error ausgegeben:
   module/Application/src/Application/Listener/ApplicationListener.php bei den
   `use` Statements die Zeile
   
-    use Zend\I18n\Translator\Translator;
+  ```
+  use Zend\I18n\Translator\Translator;
+  ```
     
   auskommentieren und die Zeile
   
-    use Zend\Mvc\I18n\Translator;
+  ```
+  use Zend\Mvc\I18n\Translator;
+  ```
     
   einkommentieren.
   
